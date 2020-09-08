@@ -23,6 +23,3 @@ BoardMember.prototype.releasePressStatement = function(){
 BoardMember.prototype.sayHi = function(){
   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
-
-const c = new BoardMember("Mr. Polished", "New York", "law");
-console.log(c.sayHi())
