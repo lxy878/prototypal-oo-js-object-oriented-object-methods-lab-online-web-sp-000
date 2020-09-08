@@ -21,7 +21,7 @@ BoardMember.prototype.releasePressStatement = () => {
 }
 
 BoardMember.prototype.sayHi = () => {
-  return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${this.training}.`
+  return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
 }
 
 const c = new BoardMember("Mr. Polished", "New York", "law");
