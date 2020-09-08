@@ -2,7 +2,6 @@ function BoardMember(name, homeState, training){
   this.name = name;
   this.homeState = homeState;
   this.training = training;
-  this.g = ()=>{return this.name}
 }
 
 BoardMember.prototype.veto = () => {
