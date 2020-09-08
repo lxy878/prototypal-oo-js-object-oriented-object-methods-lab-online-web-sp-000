@@ -24,4 +24,4 @@ BoardMember.prototype.sayHi = () => {
   return `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
 }
 
-const c = new BoardMember("Mr. Polished", "New York", "law")
+const c = new BoardMember("Mr. Polished", "New York", "law");
