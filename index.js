@@ -26,4 +26,6 @@ BoardMember.prototype.sayHi = () => {
 }
 
 const c = new BoardMember("Mr. Polished", "New York", "law");
+
+console.log(c.g())
 console.log(c.sayHi())
