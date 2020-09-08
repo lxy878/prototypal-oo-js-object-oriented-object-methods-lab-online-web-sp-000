@@ -12,6 +12,10 @@ BoardMember.prototype.approve = () => {
   return 'You can do that!'
 }
 
-boardMember.prototype.doCharity = () => {
+BoardMember.prototype.doCharity = () => {
   return 'I like to help people.'
+}
+
+BoardMember.releasePressStatement = () => {
+  return 'You will see great things from Scuber.'
 }
