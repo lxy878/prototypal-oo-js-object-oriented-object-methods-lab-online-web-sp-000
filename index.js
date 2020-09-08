@@ -11,3 +11,7 @@ BoardMember.prototype.veto = () => {
 BoardMember.prototype.approve = () => {
   return 'You can do that!'
 }
+
+boardMember.prototype.doCharity = () => {
+  return 'I like to help people.'
+}
